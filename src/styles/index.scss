@@ -1,0 +1,7 @@
+@use 'colors';
+
+body {
+  background-color: colors.$background-color;
+  font-family: "Work Sans", sans-serif;
+  padding: 20px 64px;
+}

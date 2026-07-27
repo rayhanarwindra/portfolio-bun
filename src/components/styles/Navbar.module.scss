@@ -1,0 +1,34 @@
+@use '../../styles/colors';
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(3, 10, 21, 0.85);
+    backdrop-filter: blur(12px);
+    position: sticky;
+    top: 20px;
+    width: 100%;
+    z-index: 1000;
+    &__logo {
+        color: colors.$white;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    &__menu {
+        color: colors.$white;
+        gap: 2.5rem;
+        display: flex;
+
+        & span {
+            font-size: 1rem;
+            font-weight: 500;
+            opacity: .8;
+            transition: opacity 0.2s;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+        
+    }
+}
