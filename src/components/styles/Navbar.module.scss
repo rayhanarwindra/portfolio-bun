@@ -6,9 +6,10 @@
     background-color: rgba(3, 10, 21, 0.85);
     backdrop-filter: blur(12px);
     position: sticky;
-    top: 20px;
-    width: 100%;
+    top: 0px;
     z-index: 1000;
+    align-items: center;
+    padding: 24px 64px;
     &__logo {
         color: colors.$white;
         font-weight: 600;
@@ -29,6 +30,5 @@
                 opacity: 1;
             }
         }
-        
     }
 }

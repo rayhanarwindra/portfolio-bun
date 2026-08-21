@@ -1,10 +1,13 @@
-import { Hero, Navbar } from "./components";
+import { Hero, Navbar } from './components'
+import styles from './styles/App.module.scss'
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <div className={styles.App}>
+        <Hero />
+      </div>
     </>
-  );
+  )
 }
