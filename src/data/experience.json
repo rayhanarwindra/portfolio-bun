@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Traveloka",
+    "title": "Software Engineer",
+    "duration": "2025 - Present",
+    "description": "During my time in Traveloka's Corporate Travel unit, I focused on developing accommodation and core features on the front-end. I led the mobile web initiative to create adaptive, mobile-friendly interfaces for the entire booking and payment flow. Additionally, I architected a Session ID-based authentication flow using S3 and session storage, enabling HRIS clients to seamlessly access the corporate platform. I primarily worked with React.js, React Native, Next.js, and TypeScript."
+  },
+  {
+    "company": "Zora Health Singapore",
+    "title": "Software Engineer (Contract)",
+    "duration": "2024 - 2025",
+    "description": "As the sole Front-end Engineer for Zora Health Singapore, I collaborated closely with product managers and designers to build the user interface from scratch. I developed their e-learning, appointment booking, e-commerce, and admin dashboard platforms, which played a key role in securing $1 million SGD in seed funding. I built these platforms using React.js, Golang, Sass, and TypeScript."
+  },
+  {
+    "company": "Blibli.com",
+    "title": "Associate Software Development Engineer",
+    "duration": "2022-2023",
+    "description": "During my time at Sirclo, I worked alongside cross-functional teams to build modern e-commerce templates and enhance the admin panel. I used React.js, Next.js, and Sass modules to create the templates, and improved the administration side by building a subscription cart, revamping the registration UI, and adding phone verification for admins."
+  },
+  {
+    "company": "Sirclo",
+    "title": "Software Engineering Intern",
+    "duration": "2021-2022",
+    "description": "Developed accommodation and core-related features on the Front-end for the Corporate Travel business unit. Led the mobile web initiative, creating mobile-friendly interfaces for the entire accommodation and payment flow using a server-side adaptive approach. Architected and implemented a Session ID-based authentication flow using S3 objects and session storage, enabling HRIS clients to seamlessly access the Traveloka for Corporate platform. Tools used: React.js, React Native, Next.js, Typescript, Jest Unit Testing."
+  }
+]

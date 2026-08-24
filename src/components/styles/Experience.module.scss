@@ -1,0 +1,55 @@
+@use '../../styles/colors';
+
+.experience{
+    color: colors.$white;
+    padding: 12rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 5rem;
+    }
+
+    &__item {
+        max-width: 896px;
+        border-left: 2px solid rgba(255,255,255, 0.6);
+        padding-left: 2rem;
+
+        &__header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__details {
+            display: flex;
+            gap: .5rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: .75rem;
+        }
+
+        &__separator, &__title {
+            opacity: .7;
+            font-weight: 400;
+        }
+
+        &__duration {
+            font-size: 1rem;
+            opacity: .7;
+        }
+
+        &__description {
+            font-size: 1.125rem;
+            opacity: .75;
+        }
+    }
+}
