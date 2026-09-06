@@ -13,7 +13,7 @@ export type Props = {
 }
 
 export default function ProjectItem(props: Props) {
-  const { title, description, tags, tools, url } = props
+  const { title, description, tags, tools } = props
   return (
     <div className={styles.projectItem}>
       <div className={styles.projectItem__header}>
