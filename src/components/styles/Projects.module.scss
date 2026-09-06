@@ -1,0 +1,21 @@
+@use '../../styles/colors';
+
+.projects {
+    padding-top: 12rem;
+    color: colors.$white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 5rem;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem
+    }
+}

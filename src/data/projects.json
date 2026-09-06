@@ -1,0 +1,20 @@
+[
+  {
+    "title": "External HRIS Integration",
+    "description": "Architected and implemented a new authentication method for HRIS users using session IDs. Utilized AWS S3 objects to store info on pages users are allowed to access.",
+    "tags": ["REACT", "NEXT"],
+    "tools": ["React.js", "Next.js", "AWS S3"]
+  },
+  {
+    "title": "Vue 3 Migration",
+    "description": "Migrated an entire supply management system from Vue 2 to Vue 3. Followed by a build tool migration from webpack to Vite, and a test runner migration from Jest to Vitest to modernize and improve the project's runtime.",
+    "tags": ["VUE"],
+    "tools": ["Vue.js", "Vite", "Vitest"]
+  },
+  {
+    "title": "E-learning Module Service",
+    "description": "Developed the end-to-end e-learning module service, from database design, backend APIs, to user interfaces. Designed the module's categorization for the dashboard, progress auto-save feature, and pagination mechanism.",
+    "tags": ["GOLANG", "REACT"],
+    "tools": ["Golang", "React", "PostgreSQL"]
+  }
+]
