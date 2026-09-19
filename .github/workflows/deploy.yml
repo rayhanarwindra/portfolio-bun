@@ -1,0 +1,40 @@
+name: Build and Upload to GCS
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 'latest'
+
+      - name: Install dependencies & Build
+        run: |
+          bun install
+          bun run build
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: 'projects/647482939031/locations/global/workloadIdentityPools/github-actions-pool/providers/github-provider'
+          service_account: 'github-actions@rayhan-arwindra-portfolio.iam.gserviceaccount.com'
+
+      - name: Upload to Cloud Storage
+        uses: google-github-actions/upload-cloud-storage@v3
+        with:
+          path: 'dist'
+          destination: 'arwindra.com'
+          parent: false
