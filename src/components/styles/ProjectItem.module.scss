@@ -44,7 +44,8 @@
 
     &__tags {
         display: flex;
-        gap: .4rem
+        gap: .4rem;
+        margin-top: auto;
     }
 
     &__footer {
