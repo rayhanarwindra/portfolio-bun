@@ -38,3 +38,5 @@ jobs:
           path: 'dist'
           destination: 'arwindra.com'
           parent: false
+          headers: |-
+            cache-control: no-cache, max-age=0

@@ -1,4 +1,4 @@
-import { Hero, Navbar, Experience, Projects } from './components'
+import { Hero, Navbar, Experience, Projects, Contact } from './components'
 import styles from './styles/App.module.scss'
 
 export default function App() {
@@ -9,6 +9,7 @@ export default function App() {
         <Hero />
         <Experience />
         <Projects />
+        <Contact />
       </div>
     </>
   )
